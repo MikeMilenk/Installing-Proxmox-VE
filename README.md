@@ -156,31 +156,21 @@ You should now be able to install updates without a Proxmox subscription.
 
 Edit the following file:
 
-```text
 /etc/apt/sources.list.d/pve-enterprise.list
-```
 
 Comment out the following line:
 
-```text
 deb https://enterprise.proxmox.com/debian/pve bookworm pve-enterprise
-```
 
 Then edit:
 
-```text
 /etc/apt/sources.list
-```
 
 Add:
 
-```text
 deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription
-```
 
 Update package lists and install updates:
 
-```bash
 apt update
 apt full-upgrade -y
-```
