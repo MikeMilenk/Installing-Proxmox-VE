@@ -173,4 +173,5 @@ deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription
 Update package lists and install updates:
 
 apt update
+
 apt full-upgrade -y
