@@ -42,7 +42,7 @@ When the installer starts, select:
 ```text
 Install Proxmox VE (Graphical)
 ```
-![Proxmox VE (Graphical)](https://github.com/MikeMilenk/Installing-Proxmox-VE/blob/0fb8399961d5ace186c7e31d9e5e1a265abc4a8a/1)%20PM%20Initial%20Installation.avif)
+![Initial Installation](https://github.com/MikeMilenk/Installing-Proxmox-VE/blob/62552a3ea288467d597479611df2b62c2a2e9711/1%20-%20PM%20Initial%20Installation.avif)
 Select the drive where Proxmox will be installed.
 
 > **Recommended:** Use an SSD if available.
