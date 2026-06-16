@@ -42,13 +42,13 @@ When the installer starts, select:
 ```text
 Install Proxmox VE (Graphical)
 ```
-
+![Proxmox VE (Graphical)](https://github.com/MikeMilenk/Installing-Proxmox-VE/blob/0fb8399961d5ace186c7e31d9e5e1a265abc4a8a/1)%20PM%20Initial%20Installation.avif)
 Select the drive where Proxmox will be installed.
 
 > **Recommended:** Use an SSD if available.
 
 > **Warning:** The installer will erase all data on the selected drive. Make sure you have backups before continuing.
-
+![Hadr Disk Selection](https://github.com/MikeMilenk/Installing-Proxmox-VE/raw/refs/heads/main/2)%20PM%20Hard%20Disk%20selection.avif)
 Continue through the installer:
 
 * Select Country
