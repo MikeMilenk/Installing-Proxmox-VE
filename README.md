@@ -1,6 +1,3 @@
-# Installing-Proxmox-VE
-This guide covers the installation of Proxmox VE.
-
 # Installing Proxmox VE
 
 ## Introduction
@@ -131,7 +128,6 @@ root
 
 After logging in, you should see the Proxmox dashboard and are ready to create your first virtual machine.
 
----
 
 ## Fixing the "No Valid Subscription" Repository Error
 
@@ -152,8 +148,6 @@ After logging into Proxmox:
 7. Click `Refresh`
 
 You should now be able to install updates without a Proxmox subscription.
-
---
 
 ## Fixing the "No Valid Subscription" Repository Error CLI Alternative
 
