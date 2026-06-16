@@ -152,25 +152,34 @@ You should now be able to install updates without a Proxmox subscription.
 
 ---
 
-## Fixing the "No Valid Subscription" Repository Error CLI Alternative
+## Fixing the "No Valid Subscription" Repository Error (CLI Alternative)
 
-```bash
+Edit the following file:
 
+```text
 /etc/apt/sources.list.d/pve-enterprise.list
-
 ```
 
-Comment out:
-```bash
+Comment out the following line:
+
+```text
 deb https://enterprise.proxmox.com/debian/pve bookworm pve-enterprise
 ```
-Add to:
-```bash
-/etc/apt/sources.list
 
+Then edit:
+
+```text
+/etc/apt/sources.list
+```
+
+Add:
+
+```text
 deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription
 ```
-Then run:
+
+Update package lists and install updates:
+
 ```bash
 apt update
 apt full-upgrade -y
