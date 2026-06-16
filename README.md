@@ -43,12 +43,16 @@ When the installer starts, select:
 Install Proxmox VE (Graphical)
 ```
 ![Initial Installation](https://github.com/MikeMilenk/Installing-Proxmox-VE/blob/62552a3ea288467d597479611df2b62c2a2e9711/1%20-%20PM%20Initial%20Installation.avif)
+
+
 Select the drive where Proxmox will be installed.
 
 > **Recommended:** Use an SSD if available.
 
 > **Warning:** The installer will erase all data on the selected drive. Make sure you have backups before continuing.
-![Hadr Disk Selection](https://github.com/MikeMilenk/Installing-Proxmox-VE/raw/refs/heads/main/2)%20PM%20Hard%20Disk%20selection.avif)
+![Hadr Disk Selection](https://github.com/MikeMilenk/Installing-Proxmox-VE/blob/31e714c1d9778c72c3b65644871ceb2d55f24ae5/2%20-%20PM%20Hard%20Disk%20selection.avif)
+
+
 Continue through the installer:
 
 * Select Country
@@ -88,6 +92,8 @@ IP Address example:
 ```text
 192.168.1.111
 ```
+![Network Config](https://github.com/MikeMilenk/Installing-Proxmox-VE/blob/31e714c1d9778c72c3b65644871ceb2d55f24ae5/3%20-%20PM%20Network%20Config.avif)
+
 
 Review the settings and start the installation.
 
@@ -149,6 +155,8 @@ After logging into Proxmox:
 7. Click `Refresh`
 
 You should now be able to install updates without a Proxmox subscription.
+![Troubleshooting](https://github.com/MikeMilenk/Installing-Proxmox-VE/blob/31e714c1d9778c72c3b65644871ceb2d55f24ae5/4%20-%20PM%20Troubleshooting.png)
+![Troubleshooting](https://github.com/MikeMilenk/Installing-Proxmox-VE/blob/31e714c1d9778c72c3b65644871ceb2d55f24ae5/5%20-%20PM%20Troubleshooting%20CLI.png)
 
 ---
 
