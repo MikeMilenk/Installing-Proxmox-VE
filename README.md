@@ -150,7 +150,7 @@ After logging into Proxmox:
 
 You should now be able to install updates without a Proxmox subscription.
 
---
+---
 
 ## Fixing the "No Valid Subscription" Repository Error CLI Alternative
 
